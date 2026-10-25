@@ -1,6 +1,6 @@
 {
   "name": "dsh-memraw",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Append-only raw memory for DSH: full transcripts, coordinate index, on-demand recall and one-click backup.",
   "license": "MIT",

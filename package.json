@@ -1,0 +1,50 @@
+{
+  "name": "dsh-memraw",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Append-only raw memory for DSH: full transcripts, coordinate index, on-demand recall and one-click backup.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThreeHHHNOW/dsh-memraw.git"
+  },
+  "homepage": "https://github.com/ThreeHHHNOW/dsh-memraw#readme",
+  "bugs": {
+    "url": "https://github.com/ThreeHHHNOW/dsh-memraw/issues"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "memory",
+    "long-term-memory",
+    "transcript",
+    "sqlite",
+    "fts5",
+    "append-only",
+    "recall",
+    "backup"
+  ],
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

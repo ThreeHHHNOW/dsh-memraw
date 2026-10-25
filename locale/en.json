@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Raw Memory",
+    "description": "Append-only transcript store with full-text recall, mem_* tools, and one-click backup."
+  }
+}

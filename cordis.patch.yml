@@ -1,0 +1,6 @@
+# dsh-memraw bundle patch: inserts the raw-memory plugin into a profile's layer stack.
+# The row id is also the settings namespace, so keep it stable.
+- insert:
+    - id: memraw
+      name: 'dsh-memraw'
+      config: {}
